@@ -1,7 +1,7 @@
 # Exercises 1-2 of Climate Modelling Slides
 
-## Exercise 1 is an example
-## Exercise 2 is an independent work
+ Exercise 1 is an example
+ Exercise 2 is an independent work
 
 ## Exercise 1: Linear Energy Balance Model
 C(dT/dt) = S0/4(1-ap)-A-BT
