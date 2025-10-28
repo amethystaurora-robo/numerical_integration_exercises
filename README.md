@@ -83,6 +83,8 @@ Below, 12 solar constant values have been chosen, and the graph of the potential
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_2500.png" width="500">
 </p>
 
+Note that at a solar constant of 1900, the ghost attractor shown in the time series is also present in the graph of the potential.
+
 ## Part 5: Noise
 
 In this model, two stable states are observed for many of the solar constant values. But transitions between these states will never occur without extreme external forcing or the addition of noise. Below Gaussian white noise has been simulated to observe transitions between states, shown as time series of temperature for each of the 12 solar constant values given above. 
