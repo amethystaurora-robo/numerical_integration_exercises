@@ -10,6 +10,10 @@ This repo is looking at the Budyko Sellers Energy Budget model. In this model, t
 But Budyko-Sellers shows that albedo is a function of temperature. As temperature increases, the ice line (average latitude line where ice exists) recedes, and as temperature decreases, the ice line moves as far as covering the entire Earth (a Snowball Earth).
 
 <p>
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/albedo_temp_function.png" width="500">
+</p>
+
+<p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/iceline.png">
 </p>
 <p>
