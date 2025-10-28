@@ -3,11 +3,18 @@
 ## Part 1: Albedo
 This repo is looking at the Budyko Sellers Energy Budget model. In this model, the standard energy budget equation is used
 
-#add picture of equation
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/linear_energy_balance.png">
+</p>
 
 But Budyko-Sellers shows that albedo is a function of temperature. As temperature increases, the ice line (average latitude line where ice exists) recedes, and as temperature decreases, the ice line moves as far as covering the entire Earth (a Snowball Earth).
 
-#add ice line graph
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/iceline.png">
+</p>
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/albedo.png">
+</p>
 
 Because the ice line affects albedo (more energy is reflected back to space over ice than over water), temperature directly affects temperature. Therefore, the Budyko-Sellers energy budget requires solving for albedo as a function of temperature in order to observe change in temperatures over time.
 
@@ -17,19 +24,25 @@ In this model, a solar constant is used. In today's Earth, the solar constant is
 
 With albedo as a function of temperature, the graph below shows the equilibrium states of different solar constants. 
 
-#add graph
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/energy_budget.png">
+</p>
 
 At 1412 W m⁻², there are three fixed-point equilibria, two stable and one unstable. At extreme solar constants, equilibrium disappear.
 
 One can also show the bifurcation diagram of the solar constant vs. temperature. The diagram below shows two stable states and one edge state.
 
-#add diagram
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/bifurcation_diagram.png">
+</p>
 
 ## Part 3: Time Series
 
 Keeping the same three values of solar constant (500, 1412, and 1900 W m⁻²), the graph below is a time series of temperature which has been run for 200 years. 
 
-#add graph
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/temperature_over_time.png">
+</p>
 
 At a solar constant of 1900 W m⁻², a slight bend appears in the time series. Because at 1900, a bifurcation has occurred (equilibria have disappeared), this may be an example of a long transient where an equilibrium point used to be (also called a ghost attractor).
 
@@ -37,7 +50,20 @@ At a solar constant of 1900 W m⁻², a slight bend appears in the time series. 
 
 Below, 12 solar constant values have been chosen-500,1100,1200,1412,1480,1500,1600,1700,1800,1900,2000,2500 W m⁻², respectively, and the graph of the potential is shown. The potential shows the number of equilibrium points for each solar constant and their stability, as minima correspond to stable equilibrium and maxima correspond to unstable equilibrium. The potentials for different solar constants shown below demonstrate a bifurcation occurring: At low values, no equilibria are present, then a double well occurs, until eventually one, and then both of these equilibrium disappear.
 
-#add potentials
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/potential_S0_500.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/potential_S0_1100.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/potential_S0_1200.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/potential_S0_1412.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/potential_S0_1480.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/potential_S0_1500.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/potential_S0_1600.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/potential_S0_1700.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/potential_S0_1800.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/potential_S0_1900.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/potential_S0_2000.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/potential_S0_2500.png">
+</p>
 
 ## Part 5: Noise
 
