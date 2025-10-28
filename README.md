@@ -25,15 +25,21 @@ One can also show the bifurcation diagram of the solar constant vs. temperature.
 
 #add diagram
 
+## Part 3: Time Series
+
 Keeping the same three values of solar constant (500, 1412, and 1900 W m⁻²), the graph below is a time series of temperature which has been run for 200 years. 
 
 #add graph
 
 At a solar constant of 1900 W m⁻², a slight bend appears in the time series. Because at 1900, a bifurcation has occurred (equilibria have disappeared), this may be an example of a long transient where an equilibrium point used to be (also called a ghost attractor).
 
+## Part 4: The Potential Function
+
 Below, 12 solar constant values have been chosen-500,1100,1200,1412,1480,1500,1600,1700,1800,1900,2000,2500 W m⁻², respectively, and the graph of the potential is shown. The potential shows the number of equilibrium points for each solar constant and their stability, as minima correspond to stable equilibrium and maxima correspond to unstable equilibrium. The potentials for different solar constants shown below demonstrate a bifurcation occurring: At low values, no equilibria are present, then a double well occurs, until eventually one, and then both of these equilibrium disappear.
 
 #add potentials
+
+## Part 5: Noise
 
 In this model, two stable states are observed for many of the solar constant values. But transitions between these states will never occur without extreme external forcing or the addition of noise. Below Gaussian white noise has been simulated to observe transitions between states, shown as time series of temperature for each of the 12 solar constant values given above. 
 
