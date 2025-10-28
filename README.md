@@ -7,22 +7,27 @@ This repo is looking at the Budyko Sellers Energy Budget model. In this model, t
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/linear_energy_balance.png" width="500">
 </p>
 
-But Budyko-Sellers shows that albedo is a function of temperature.
+where C is the heat capacity T is temperature, t is time, S is incoming solar short-wave radiation, α is albedo, and B and A represent outgoing longwave radiation. In this model, the rate of change of mean temperature of the Earth is determined by the difference between absorbed solar radiation (after reflection by albedo) and emitted terrestrial radiation. In equilibrium, the incoming and outgoing radiation will be in balance, causing no change in temperature.
+
+The Budyko-Sellers model adds one complication, in that it says albedo is a function of temperature.
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/albedo_temp_function.png" width="500">
 </p>
 
-As temperature increases, the ice line (average latitude line where ice exists) recedes, and as temperature decreases, the ice line moves as far as covering the entire Earth (a Snowball Earth).
+The ice line is the average latitude line where ice reaches around the globe. At 0, there is no ice, and at 1, ice covers the planet. As temperature increases, the ice line recedes, and as temperature decreases, the ice line moves southward.
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/iceline.png">
 </p>
+
+As the ice line moves toward lower latitudes, albedo is higher, reflecting more of the solar incoming radiation. This decreases temperature and increases ice, in a positive feedback loop.
+
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/albedo.png">
 </p>
 
-Because the ice line affects albedo (more energy is reflected back to space over ice than over water), temperature directly affects temperature. Therefore, the Budyko-Sellers energy budget requires solving for albedo as a function of temperature in order to observe change in temperatures over time.
+Because albedo is affected by temperature, the Budyko-Sellers energy budget requires solving for albedo as a function of temperature in order to observe change in temperatures over time.
 
 ## Part 2: Solar Constant
 
