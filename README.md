@@ -1,7 +1,7 @@
 # The Budyko-Sellers Model
 
 ## Part 1: Albedo
-This repo is looking at the Budyko Sellers Energy Budget model. In this model, the standard energy budget equation is used
+This repo is looking at the Budyko Sellers Energy Budget model. In this model, the linear energy balance equation is used
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/linear_energy_balance.png" width="500">
