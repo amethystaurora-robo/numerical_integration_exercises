@@ -90,6 +90,8 @@ In this model, two stable states are observed for many of the solar constant val
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_2500.png" width="500">
 </p>
 
+The same time series are represented below with their probability distributions. Note that the distribution of the time series also changes-where transitions are observed, the PDFs are bi-modal. In cases where a transition has occurred, a ghost attractor can still be seen in the PDF.
+
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_500.png" width="500">
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1100.png" width="500">
@@ -105,7 +107,6 @@ In this model, two stable states are observed for many of the solar constant val
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_2500.png" width="500">
 </p>
 
-Note that the distribution of the time series also changes-where transitions are observed, the PDFs are bi-modal. In cases where a transition has occurred, a ghost attractor can still be seen in the PDF.
 
 Note that, at lower noise amplitude, epsilon, transitions also do not occur, occur less frequently, or only occur with higher solar constants. At low noise (<0.5), no transitions occur. At epsilon=0.5, transitions begin occurring at solar constant=1800. At epsilon=1, they begin occurring at 1700. (Some trajectories transition and others don't). At epsilon=2, a few trajectories have transitioned at solar constant=1600, though at different times. All trajectories have transitioned at 1800. At epsilon=3, trajectories can begin transitioning at solar constant=1480, and all have transitioned by solar constant=1800.
 
