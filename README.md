@@ -1,7 +1,12 @@
 # The Budyko-Sellers Model
 
+This project is looking at the Energy Budget of the Earth. The diagram below shows an overview of the simplified model used.
+<p>
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/energy_budget_earth.png">
+</p>
+
 ## Part 1: Albedo
-This repo is looking at the Budyko Sellers Energy Budget model. In this model, the linear energy balance equation is used
+To represent the simplified energy budget, a linear energy balance equation is used.
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/linear_energy_balance.png" width="500">
@@ -31,9 +36,11 @@ Because albedo is affected by temperature, the Budyko-Sellers energy budget requ
 
 ## Part 2: Solar Constant
 
-In this model, a solar constant is used. In today's Earth, the solar constant is about 1,361 W m⁻². As Earth's elliptical path around the sun changes (on a paleoclimatic timescale), the solar constant can increase or decrease. It has been shown that a decrease in the solar constant is a factor in ice ages, as it feeds into the ice-albedo feedback mechanism (Lower temperatures allow ice to grow->more heat is reflected, making temperatures even colder->ice grows more).
+In this model, a solar constant is used. In today's Earth, the solar constant is about 1,361 W m⁻². As Earth's elliptical path around the sun changes (on a paleoclimatic timescale), the solar constant can increase or decrease. It has been shown that a decrease in the solar constant is a factor in ice ages, as it feeds into the ice-albedo feedback mechanism described above.
 
-With albedo as a function of temperature, the graph below shows the equilibrium states of different solar constants. 
+Equilibria represent the states where incoming and outgoing radiation are balanced, so the temperature no longer changes (where the trajectory in the graph below crosses zero). These points are important because they determine the long-term climate states of the system.
+
+Stable equilibria, where the trajectory crosses zero and has a negative slope, are those toward which the system naturally evolves. If we imagine that a ball is on this trajectory, it will naturally settle in the troughs where the slope is negative. If the temperature is perturbed slightly (or the ball is kicked a bit), it will return to equilibrium. Unstable equilibria, where the slope is positve in the graph below, act like tipping points: a small perturbation can drive the system toward a different stable state.
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/energy_budget.png">
@@ -41,7 +48,7 @@ With albedo as a function of temperature, the graph below shows the equilibrium 
 
 At 1412 W m⁻², there are three fixed-point equilibria, two stable and one unstable. At extreme solar constants, equilibrium disappear.
 
-One can also show the bifurcation diagram of the solar constant vs. temperature. The diagram below shows two stable states and one edge state.
+One can also show the bifurcation diagram of the solar constant vs. temperature. The diagram below shows two stable states and one 'edge' state, the unstable equilibrium decribed above.
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/bifurcation_diagram.png">
