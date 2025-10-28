@@ -66,7 +66,7 @@ At a solar constant of 1900 W m⁻², a slight bend appears in the time series. 
 
 ## Part 4: The Potential Function
 
-Below, 12 solar constant values have been chosen, and the graph of the potential is shown. The potential shows the number of equilibrium points for each solar constant and their stability, as minima correspond to stable equilibrium and maxima correspond to unstable equilibrium. The potentials for different solar constants shown below demonstrate a bifurcation occurring: At low values, no equilibria are present, then a double well occurs, until eventually one, and then both of these equilibrium disappear.
+Below, 12 solar constant values have been chosen, and the graph of the potential is shown for each. The potential shows the number of equilibrium points for each solar constant and their stability, as minima correspond to stable equilibrium and maxima correspond to unstable equilibrium. Since the derivative of the potential corresponds to the negative of the system’s rate of change (𝑑𝑉/𝑑𝑇 = −𝑑𝑇/𝑑𝑡), the slope of the potential determines the direction and speed of temperature evolution. The potentials for different solar constants shown below demonstrate a bifurcation occurring: At low solar constant values, no equilibria are present. Increasing the solar constant gives a double well potential, until eventually one, and then both of these equilibria disappear at high solar constants.
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_500.png" width="500">
