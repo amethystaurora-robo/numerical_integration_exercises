@@ -12,7 +12,7 @@ To represent the simplified energy budget, a linear energy balance equation is u
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/linear_energy_balance.png" width="500">
 </p>
 
-where C is the heat capacity T is temperature, t is time, S is incoming solar short-wave radiation, α is albedo, and B and A represent outgoing longwave radiation. In this model, the rate of change of mean temperature of the Earth is determined by the difference between absorbed solar radiation (after reflection by albedo) and emitted terrestrial radiation. In equilibrium, the incoming and outgoing radiation will be in balance, causing no change in temperature.
+where C is the heat capacity, T is temperature, t is time, S is incoming solar short-wave radiation, α is albedo, and B and A are outgoing longwave radiation. In this model, the rate of change of mean temperature of the Earth is determined by the difference between absorbed solar radiation (after reflection by albedo) and emitted terrestrial radiation. In equilibrium, the incoming and outgoing radiation will be in balance, causing no change in temperature.
 
 The Budyko-Sellers model adds one complication, in that it says albedo is a function of temperature.
 
@@ -20,13 +20,13 @@ The Budyko-Sellers model adds one complication, in that it says albedo is a func
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/albedo_temp_function.png" width="500">
 </p>
 
-The ice line is the average latitude line where ice reaches around the globe. At 0, there is no ice, and at 1, ice covers the planet. As temperature increases, the ice line recedes, and as temperature decreases, the ice line moves southward.
+The ice line is the average latitude line in the Arctic where ice reaches around the globe. At 0, there is no ice, and at 1, ice covers the planet. As temperature increases, the ice line recedes, and as temperature decreases, the ice line moves southward.
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/iceline.png">
 </p>
 
-As the ice line moves toward lower latitudes, albedo is higher, reflecting more of the solar incoming radiation. This decreases temperature and increases ice, in a positive feedback loop.
+As the ice line moves toward lower latitudes, albedo is higher, reflecting more of the solar incoming radiation. This decreases temperature and further increases area covered with ice, in a positive feedback loop.
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/albedo.png">
@@ -36,7 +36,7 @@ Because albedo is affected by temperature, the Budyko-Sellers energy budget requ
 
 ## Part 2: Solar Constant
 
-In this model, a solar constant is used. In today's Earth, the solar constant is about 1,361 W m⁻². As Earth's elliptical path around the sun changes (on a paleoclimatic timescale), the solar constant can increase or decrease. It has been shown that a decrease in the solar constant is a factor in ice ages, as it feeds into the ice-albedo feedback mechanism described above.
+In the Budyko-Sellers model, a solar constant is used. In today's Earth, the solar constant is 1,361 W m⁻². As Earth's elliptical path around the sun changes (on a paleoclimatic timescale), the solar constant can increase or decrease. It has been shown that a decrease in the solar constant is a factor in ice ages, as it feeds into the ice-albedo feedback mechanism described above.
 
 Equilibria represent the states where incoming and outgoing radiation are balanced, so the temperature no longer changes (where the trajectory in the graph below crosses zero). These points are important because they determine the long-term climate states of the system.
 
@@ -46,7 +46,7 @@ Stable equilibria, where the trajectory crosses zero and has a negative slope, a
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/energy_budget.png">
 </p>
 
-At 1412 W m⁻², there are three fixed-point equilibria, two stable and one unstable. At extreme solar constants, equilibrium disappear.
+At 1412 W m⁻², there are three fixed-point equilibria, two stable and one unstable. At extreme solar constants, equilibria disappear.
 
 One can also show the bifurcation diagram of the solar constant vs. temperature. The diagram below shows two stable states and one 'edge' state, the unstable equilibrium decribed above.
 
@@ -56,7 +56,7 @@ One can also show the bifurcation diagram of the solar constant vs. temperature.
 
 ## Part 3: Time Series
 
-Keeping the same three values of solar constant (500, 1412, and 1900 W m⁻²), the graph below is a time series of temperature which has been run for 200 years. 
+Keeping the same three values of solar constant (500, 1412, and 1900 W m⁻²), the graph below is a deterministic time series of temperature which has been run for 200 years. 
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/temperature_over_time.png">
