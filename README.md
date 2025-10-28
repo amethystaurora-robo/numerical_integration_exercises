@@ -51,27 +51,53 @@ At a solar constant of 1900 W m⁻², a slight bend appears in the time series. 
 Below, 12 solar constant values have been chosen-500,1100,1200,1412,1480,1500,1600,1700,1800,1900,2000,2500 W m⁻², respectively, and the graph of the potential is shown. The potential shows the number of equilibrium points for each solar constant and their stability, as minima correspond to stable equilibrium and maxima correspond to unstable equilibrium. The potentials for different solar constants shown below demonstrate a bifurcation occurring: At low values, no equilibria are present, then a double well occurs, until eventually one, and then both of these equilibrium disappear.
 
 <p>
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_500.png">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1100.png">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1200.png">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1412.png">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1480.png">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1500.png">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1600.png">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1700.png">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1800.png">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1900.png">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_2000.png">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_2500.png">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_500.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1100.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1200.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1412.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1480.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1500.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1600.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1700.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1800.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1900.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_2000.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_2500.png" width="500">
 </p>
 
 ## Part 5: Noise
 
 In this model, two stable states are observed for many of the solar constant values. But transitions between these states will never occur without extreme external forcing or the addition of noise. Below Gaussian white noise has been simulated to observe transitions between states, shown as time series of temperature for each of the 12 solar constant values given above. 
 
-#add time series
+<p>
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_500.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1100.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1200.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1412.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1480.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1500.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1600.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1700.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1800.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1900.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_2000.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_2500.png" width="500">
+</p>
 
-#add histograms
+<p>
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_500.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1100.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1200.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1412.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1480.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1500.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1600.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1700.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1800.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1900.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_2000.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_2500.png" width="500">
+</p>
 
 Note that the distribution of the time series also changes-where transitions are observed, the PDFs are bi-modal. In cases where a transition has occurred, a ghost attractor can still be seen in the PDF.
 
