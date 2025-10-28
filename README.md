@@ -4,7 +4,7 @@
 This repo is looking at the Budyko Sellers Energy Budget model. In this model, the standard energy budget equation is used
 
 <p>
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/linear_energy_balance.png">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/linear_energy_balance.png" width="500">
 </p>
 
 But Budyko-Sellers shows that albedo is a function of temperature. As temperature increases, the ice line (average latitude line where ice exists) recedes, and as temperature decreases, the ice line moves as far as covering the entire Earth (a Snowball Earth).
@@ -102,3 +102,7 @@ In this model, two stable states are observed for many of the solar constant val
 Note that the distribution of the time series also changes-where transitions are observed, the PDFs are bi-modal. In cases where a transition has occurred, a ghost attractor can still be seen in the PDF.
 
 Note that, at lower noise amplitude, epsilon, transitions also do not occur, occur less frequently, or only occur with higher solar constants. At low noise (<0.5), no transitions occur. At epsilon=0.5, transitions begin occurring at solar constant=1800. At epsilon=1, they begin occurring at 1700. (Some trajectories transition and others don't). At epsilon=2, a few trajectories have transitioned at solar constant=1600, though at different times. All trajectories have transitioned at 1800. At epsilon=3, trajectories can begin transitioning at solar constant=1480, and all have transitioned by solar constant=1800.
+
+References:
+
+(F. Ragone, personal communication, 2025)
