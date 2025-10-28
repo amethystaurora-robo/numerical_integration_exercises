@@ -1,110 +1,46 @@
-# Exercises 1-2 of Climate Modelling Slides
+# The Budyko-Sellers Model
 
- Exercise 1 is an example
- Exercise 2 is an independent work
+## Part 1: Albedo
+This repo is looking at the Budyko Sellers Energy Budget model. In this model, the standard energy budget equation is used
 
-## Exercise 1: Linear Energy Balance Model
-C(dT/dt) = S0/4(1-ap)-A-BT
-where C(dT/dt) is the time evolution of the planet, S0/4 is the solar incoming short-wave radiation, a is the albedo, and A and B are the outgoing long-wave radiation
+#add picture of equation
 
-C=8.36x10^8 JK^-1m^-2, S0=1360 Wm^-2, αp
-=0.30, A=-367.58 Wm^-2, B=2.09 Wm^-2K^-1
+But Budyko-Sellers shows that albedo is a function of temperature. As temperature increases, the ice line (average latitude line where ice exists) recedes, and as temperature decreases, the ice line moves as far as covering the entire Earth (a Snowball Earth).
 
-1) what is the equilibrium temperature for the given values of the parameters? What is the relaxation
-time scale (in years)?
-2) write a simple code to integrate numerically the equation. Plot time series of the solution starting
-from different initial conditions;
-3) repeat 2) for a few different cases changing the equilibrium temperature and/or the relaxation time
-scale, by tuning the appropriate parameters.
-4) compute and plot the potential of the model for a few different cases
+#add ice line graph
 
-1) what is the equilibrium temperature for the given values of the parameters? 
+Because the ice line affects albedo (more energy is reflected back to space over ice than over water), temperature directly affects temperature. Therefore, the Budyko-Sellers energy budget requires solving for albedo as a function of temperature in order to observe change in temperatures over time.
 
-    a) Define the equilibrium temperature:
-        At equilibrium, the change is 0 so dT/dt = 0
-        Set everything on the right-hand side to 0, then solve for T to find the equilibrium temperature
-        
-        0 = S0/4(1-ap)-A-BT
-        BT = S0/4(1-ap)-A
-        T = (S0/4(1-ap)-A)/B
+## Part 2: Solar Constant
 
-    b) Use given parameter values to solve for the equilibrium temperature (code below)
+In this model, a solar constant is used. In today's Earth, the solar constant is about 1,361 W m⁻². As Earth's elliptical path around the sun changes (on a paleoclimatic timescale), the solar constant can increase or decrease. It has been shown that a decrease in the solar constant is a factor in ice ages, as it feeds into the ice-albedo feedback mechanism (Lower temperatures allow ice to grow->more heat is reflected, making temperatures even colder->ice grows more).
 
-1) What is the relaxation time scale (in years)?
+With albedo as a function of temperature, the graph below shows the equilibrium states of different solar constants. 
 
-    a) Define the deviation from the equilibrium:
-    
-        delta(T) = T-T0
-        T=T0 + delta(T)
+#add graph
 
-    c) Plug the difference into the original Energy Balance Model:
-    
-        C(d(T0+delta(T))/dt) = S0/4(1-ap)-A-B(T0+delta(T))
-        The derivative of a constant is 0, so d(T0) cancels
-        C(d(T0+delta(T))/dt) = S0/4(1-ap)-A-B(T0+delta(T))
+At 1412 W m⁻², there are three fixed-point equilibria, two stable and one unstable. At extreme solar constants, equilibrium disappear.
 
-        According to equilibrium temperature S0/4(1-ap)-A-BT = 0, so that also cancels
-        C(d(delta(T))/dt) = -B(delta(T))
+One can also show the bifurcation diagram of the solar constant vs. temperature. The diagram below shows two stable states and one edge state.
 
-        Divide by C to get standard form:
-        d(delta(T))/dt = -B(delta(T))/C
-   
-        Change notation to reflect standards in physics:
-        B/C = 1/tau0
-        tau0 = C/B
+#add diagram
 
-   2) write a simple code to integrate numerically the equation. Plot time series of the solution starting
-from different initial conditions
+Keeping the same three values of solar constant (500, 1412, and 1900 W m⁻²), the graph below is a time series of temperature which has been run for 200 years. 
 
-    a) Recall the standard form differential equation: dT/dt = -(T-T0/tau0)
-       - This equation says that the rate of change in Temperature is proportional to the distance in temperature from the         equilibrium over the relaxation time, tau
+#add graph
 
-    b) Choose discretisation points for analysis (although time is continuous, choose discrete points on the number line to
-    form plot of trajectory in time)
-       - discretisation points take the form of ti = t0 + i(delta)t
-       - can approximate the derivative of the original standard-form equation at time ti by using a forward difference            approximation: dT/dt = (T(ti+1) - T(ti))/(delta)t
+At a solar constant of 1900 W m⁻², a slight bend appears in the time series. Because at 1900, a bifurcation has occurred (equilibria have disappeared), this may be an example of a long transient where an equilibrium point used to be (also called a ghost attractor).
 
-   c) Set dT/dt = to the derivative above, and solve the standard form equation:
-       - (T(ti+1) - T(ti))/(delta)t = -(T-T0/tau0)
-       - Get rid of the delta t:
-       - T(ti+1) - T(ti) = -((delta)t/tau0)(Ti-T0)
-       - Get updated term by rearranging:
-       - T(ti+1) = T(ti) -((delta)t/tau0)(Ti-T0)
+Below, 12 solar constant values have been chosen-500,1100,1200,1412,1480,1500,1600,1700,1800,1900,2000,2500 W m⁻², respectively, and the graph of the potential is shown. The potential shows the number of equilibrium points for each solar constant and their stability, as minima correspond to stable equilibrium and maxima correspond to unstable equilibrium. The potentials for different solar constants shown below demonstrate a bifurcation occurring: At low values, no equilibria are present, then a double well occurs, until eventually one, and then both of these equilibrium disappear.
 
-4) compute and plot the potential of the model for a few different cases
+#add potentials
 
-   a) The potential function is defined as the potential energy in the given equation. So if dT/dt = N(T), the potential is     defined as dV/dt = -N(T), the potential of the force, N(T), acting on T.
+In this model, two stable states are observed for many of the solar constant values. But transitions between these states will never occur without extreme external forcing or the addition of noise. Below Gaussian white noise has been simulated to observe transitions between states, shown as time series of temperature for each of the 12 solar constant values given above. 
 
-   b) Find the potential by integrating: V(T) = -integral (-infinity,T) N(T')dT'
+#add time series
 
-   c) Similar to above, need to discretize the function. Rather than continuous integration, choose a maximum and minimum
-    value and compute discrete steps, delta(T):
-   
-       - V(T) = -sum(Tmin,Tmax) N(T)delta(T)
+#add histograms
 
-## Exercise 2
+Note that the distribution of the time series also changes-where transitions are observed, the PDFs are bi-modal. In cases where a transition has occurred, a ghost attractor can still be seen in the PDF.
 
-Consider the Budyko Sellers model:
-
-C(dT/dt) = S0/4(1-ap(T))-A-BT
-where αp is a function of T as seen, and (with S2=-0.477).
-
-1) for different values of S0, show graphically the existence (or not) of multiple solutions, by looking for zeros of the right hand side of the equation. Choose cases that give different behaviours (you can see the values of S0 to take form the hysteresis plot).
-2) write a code to integrate numerically the equation. Plot time series of the solution starting from different initial conditions for the cases you have shown in 1);
-3) compute the potential for the cases considered in 1) and 2). How can you compute the numerical value of the equilibrium solution(s) without running the simulations?
-
-1) for different values of S0, show graphically the existence (or not) of multiple solutions, by looking for zeros of the right hand side of the equation. Choose cases that give different behaviours (you can see the values of S0 to take form the hysteresis plot).
-
-   a) This function is slightly different than the one in Exercise 1 because albedo now depends on temperature, which is       more realistic. So I first define the albedo function as a sigmoid:
-   - ap(T) = a_ice + (a_water-a_ice)/1+e^-((T-Tc)/delta(T))
-   - Define variables and graph below
-  
-   1) for different values of S0, show graphically the existence (or not) of multiple solutions, by looking for zeros of the right hand side of the equation. Choose cases that give different behaviours (you can see the values of S0 to take form the hysteresis plot)
-
-    a) C(dT/dt) = S0/4(1-ap(T))-A-BT gives the Budyko Sellers model. To get equilibrium points, we set the right hand side      to 0:
-       - 0 = S0/4(1-ap(T))-A-BT
-    b) Choose a range of values of T and plot to find equilibria (done in earlier code)
-    c) Choose a range of values of initial condition S0 to see system state
-
-   Graph shows local maxima and minima for each initial solar constant condition. An initial condition using the S0 that we currently have (1361 W/m^2) shows three equilibria, two stable and one unstable. An initial condition starting at 700 leads very quickly to snowball Earth conditions. An initial condition at 2000 never reaches an equilibrium, but shows a pattern of runaway warming where the system never stabilizes.
-   
+Note that, at lower noise amplitude, epsilon, transitions also do not occur, occur less frequently, or only occur with higher solar constants. At low noise (<0.5), no transitions occur. At epsilon=0.5, transitions begin occurring at solar constant=1800. At epsilon=1, they begin occurring at 1700. (Some trajectories transition and others don't). At epsilon=2, a few trajectories have transitioned at solar constant=1600, though at different times. All trajectories have transitioned at 1800. At epsilon=3, trajectories can begin transitioning at solar constant=1480, and all have transitioned by solar constant=1800.
