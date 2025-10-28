@@ -104,7 +104,9 @@ In this model, two stable states are observed for many of the solar constant val
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_2500.png" width="500">
 </p>
 
-The same time series are represented below with their probability distributions. Note that the distribution of the time series also changes-where transitions are observed, the PDFs are bi-modal. In cases where a transition has occurred, a ghost attractor can still be seen in the PDF.
+Noise allows transitions in 5 of the time series shown above, corresponding to their double-well potentials. Note that the amplitude of noise controls the amount of fluctuation a given trajectory can have, and fewer fluctuations and therefore, transitions, will be observed with lower amplitude values. The above transitions have been achieved with an amplitude value of 3.
+
+Noisy trajectories allow for statistical analysis for ensemble simulations. With Gaussian white noise, the probability density of the trajectories will have a Gaussian distribution. Where time series have not transitioned, PDFs are unimodal, but where transitions are observed, the PDFs are bi-modal. In cases where a bifurcation has occurred, a ghost attractor can also still be seen in the PDF.
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_500.png" width="500">
@@ -120,9 +122,6 @@ The same time series are represented below with their probability distributions.
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_2000.png" width="500">
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_2500.png" width="500">
 </p>
-
-
-Note that, at lower noise amplitude, epsilon, transitions also do not occur, occur less frequently, or only occur with higher solar constants. At low noise (<0.5), no transitions occur. At epsilon=0.5, transitions begin occurring at solar constant=1800. At epsilon=1, they begin occurring at 1700. (Some trajectories transition and others don't). At epsilon=2, a few trajectories have transitioned at solar constant=1600, though at different times. All trajectories have transitioned at 1800. At epsilon=3, trajectories can begin transitioning at solar constant=1480, and all have transitioned by solar constant=1800.
 
 References:
 
