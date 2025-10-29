@@ -1,5 +1,5 @@
 # The Budyko-Sellers Model
-#things to do: Add equilibrium dots on equilibria diagram. Change all graph from 1900-2500. Make bifurcation diagram prettier. Add noise graph, which involves level of noise, number of transitions, and for which solar constant the transitions occurred. So need to define whether a trajectory is 'switching' or not. Something like a bullet graph, box and whisker plot, or bar chart, where solar constant is color and is additive, noise values are x axis and number of transitions are y axis
+#things to do: Re-add code, bifurcation diagram, add noise analysis, add temperature over time, energy budget.
 This project is looking at the Energy Budget of the Earth. The diagram below shows an overview of the simplified model used.
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/energy_budget_earth.png">
@@ -56,13 +56,13 @@ One can also show the bifurcation diagram of the solar constant vs. temperature.
 
 ## Part 3: Time Series
 
-Keeping the same three values of solar constant (500, 1412, and 1900 W m⁻²), the graph below is a deterministic time series of temperature which has been run for 200 years. 
+Keeping the same three values of solar constant (500, 1412, and 2000 W m⁻²), the graph below is a deterministic time series of temperature which has been run for 200 years. 
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/temperature_over_time.png">
 </p>
 
-At a solar constant of 1900 W m⁻², a slight bend appears in the time series. Because at 1900, a bifurcation has occurred (equilibria have disappeared), this may be an example of a long transient where an equilibrium point used to be (also called a ghost attractor).
+At a solar constant of 2000 W m⁻², a slight bend appears in the time series. Because at 2000, a bifurcation has occurred (equilibria have disappeared), this may be an example of a long transient where an equilibrium point used to be (also called a ghost attractor).
 
 ## Part 4: The Potential Function
 
