@@ -1,5 +1,5 @@
 # The Budyko-Sellers Model
-#things to do: Re-add code, bifurcation diagram, add noise analysis, add temperature over time, energy budget.
+
 This project is looking at the Energy Budget of the Earth. The diagram below shows an overview of the simplified model used.
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/energy_budget_earth.png">
