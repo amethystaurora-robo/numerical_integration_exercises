@@ -69,7 +69,7 @@ At a solar constant of 1900 W m⁻², a slight bend appears in the time series. 
 Below, 12 solar constant values have been chosen, and the graph of the potential is shown for each. The potential shows the number of equilibrium points for each solar constant and their stability, as minima correspond to stable equilibrium and maxima correspond to unstable equilibrium. Since the derivative of the potential corresponds to the negative of the system’s rate of change (𝑑𝑉/𝑑𝑇 = −𝑑𝑇/𝑑𝑡), the slope of the potential determines the direction and speed of temperature evolution. The potentials for different solar constants shown below demonstrate a bifurcation occurring: At low solar constant values, no equilibria are present. Increasing the solar constant gives a double well potential, until eventually one, and then both of these equilibria disappear at high solar constants.
 
 <p>
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_500.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_500.png" width="400">
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1100.png" width="500">
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1200.png" width="500">
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1412.png" width="500">
