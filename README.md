@@ -40,6 +40,10 @@ In the Budyko-Sellers model, a solar constant is used. In today's Earth, the sol
 
 Equilibria represent the states where incoming and outgoing radiation are balanced, so the temperature no longer changes (where the trajectory in the graph below crosses zero). These points are important because they determine the long-term climate states of the system.
 
+<p>
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/temperature_over_time.png">
+</p>
+
 Stable equilibria, where the trajectory crosses zero and has a negative slope, are those toward which the system naturally evolves. If we imagine that a ball is on this trajectory, it will naturally settle in the troughs where the slope is negative. If the temperature is perturbed slightly (or the ball is kicked a bit), it will return to equilibrium. Unstable equilibria, where the slope is positve in the graph below, act like tipping points: a small perturbation can drive the system toward a different stable state.
 
 <p>
