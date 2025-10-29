@@ -58,9 +58,6 @@ One can also show the bifurcation diagram of the solar constant vs. temperature.
 
 Keeping the same three values of solar constant (500, 1412, and 2000 W m⁻²), the graph below is a deterministic time series of temperature which has been run for 200 years. 
 
-<p>
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/temperature_over_time.png">
-</p>
 
 At a solar constant of 2000 W m⁻², a slight bend appears in the time series. Because at 2000, a bifurcation has occurred (equilibria have disappeared), this may be an example of a long transient where an equilibrium point used to be (also called a ghost attractor).
 
@@ -104,7 +101,11 @@ In this model, two stable states are observed for many of the solar constant val
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_2500.png" width="400">
 </p>
 
-Noise allows transitions in 5 of the time series shown above, corresponding to their double-well potentials. Note that the amplitude of noise controls the amount of fluctuation a given trajectory can have, and fewer fluctuations and therefore, transitions, will be observed with lower amplitude values. The above transitions have been achieved with an amplitude value of 3.
+Noise allows transitions in 5 of the time series shown above, corresponding to their double-well potentials. Note that the amplitude of noise controls the amount of fluctuation a given trajectory can have, and fewer fluctuations and therefore, transitions, will be observed with lower amplitude values. The above transitions have been achieved with an amplitude value of 3. Below is a brief outline of transitions observed at different values of noise amplitude.
+
+<p>
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/noise_transitions.png" width="800">
+</p>
 
 Noisy trajectories allow for statistical analysis for ensemble simulations. With Gaussian white noise, the probability density of the trajectories will have a Gaussian distribution. Where time series have not transitioned, PDFs are unimodal, but where transitions are observed, the PDFs are bi-modal. In cases where a bifurcation has occurred, a ghost attractor can also still be seen in the PDF.
 
