@@ -85,7 +85,7 @@ Below, 12 solar constant values have been chosen, and the graph of the potential
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_2500.png" width="400">
 </p>
 
-Note that at a solar constant of 1900, the ghost attractor shown in the time series is also present in the graph of the potential.
+Note that at a solar constant of 2000, the ghost attractor shown in the time series is also present in the graph of the potential.
 
 ## Part 5: Noise
 
