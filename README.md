@@ -2,7 +2,7 @@
 
 This project is looking at the Energy Budget of the Earth. The diagram below shows an overview of the simplified model used.
 <p>
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/energy_budget_earth.png">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/energy_illustration.png">
 </p>
 
 To represent the simplified energy budget, a linear energy balance equation is used.
