@@ -72,15 +72,15 @@ Below, 12 solar constant values have been chosen, and the graph of the potential
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_500.png" width="400">
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1100.png" width="400">
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1200.png" width="400">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1412.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1480.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1500.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1600.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1700.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1800.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1900.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_2000.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_2500.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1412.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1480.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1500.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1600.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1700.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1800.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1900.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_2000.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_2500.png" width="400">
 </p>
 
 Note that at a solar constant of 1900, the ghost attractor shown in the time series is also present in the graph of the potential.
@@ -90,18 +90,18 @@ Note that at a solar constant of 1900, the ghost attractor shown in the time ser
 In this model, two stable states are observed for many of the solar constant values. But transitions between these states will never occur without extreme external forcing or the addition of noise. Below Gaussian white noise has been simulated to observe transitions between states, shown as time series of temperature for each of the 12 solar constant values given above. 
 
 <p>
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_500.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1100.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1200.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1412.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1480.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1500.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1600.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1700.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1800.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1900.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_2000.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_2500.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_500.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1100.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1200.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1412.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1480.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1500.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1600.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1700.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1800.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_1900.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_2000.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_2500.png" width="400">
 </p>
 
 Noise allows transitions in 5 of the time series shown above, corresponding to their double-well potentials. Note that the amplitude of noise controls the amount of fluctuation a given trajectory can have, and fewer fluctuations and therefore, transitions, will be observed with lower amplitude values. The above transitions have been achieved with an amplitude value of 3.
@@ -109,18 +109,18 @@ Noise allows transitions in 5 of the time series shown above, corresponding to t
 Noisy trajectories allow for statistical analysis for ensemble simulations. With Gaussian white noise, the probability density of the trajectories will have a Gaussian distribution. Where time series have not transitioned, PDFs are unimodal, but where transitions are observed, the PDFs are bi-modal. In cases where a bifurcation has occurred, a ghost attractor can also still be seen in the PDF.
 
 <p>
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_500.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1100.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1200.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1412.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1480.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1500.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1600.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1700.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1800.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1900.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_2000.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_2500.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_500.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1100.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1200.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1412.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1480.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1500.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1600.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1700.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1800.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_1900.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_2000.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/histogram_2500.png" width="400">
 </p>
 
 References:
