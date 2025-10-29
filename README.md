@@ -1,5 +1,5 @@
 # The Budyko-Sellers Model
-
+#things to do: Add equilibrium dots on equilibria diagram. Change all graph from 1900-2500. Make bifurcation diagram prettier. Add noise graph, which involves level of noise, number of transitions, and for which solar constant the transitions occurred. So need to define whether a trajectory is 'switching' or not. Something like a bullet graph, box and whisker plot, or bar chart, where solar constant is color and is additive, noise values are x axis and number of transitions are y axis
 This project is looking at the Energy Budget of the Earth. The diagram below shows an overview of the simplified model used.
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/energy_budget_earth.png">
