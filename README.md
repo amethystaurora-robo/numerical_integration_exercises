@@ -70,8 +70,8 @@ Below, 12 solar constant values have been chosen, and the graph of the potential
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_500.png" width="400">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1100.png" width="500">
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1200.png" width="500">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1100.png" width="400">
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1200.png" width="400">
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1412.png" width="500">
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1480.png" width="500">
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/potential_S0_1500.png" width="500">
