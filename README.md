@@ -87,7 +87,7 @@ Note that at a solar constant of 1900, the ghost attractor shown in the time ser
 
 ## Part 5: Noise
 
-In this model, two stable states are observed for many of the solar constant values. But transitions between these states will never occur without extreme external forcing or the addition of noise. Below Gaussian white noise has been simulated to observe transitions between states, shown as time series of temperature for each of the 12 solar constant values given above. 
+In this model, two stable states are observed for many of the solar constant values. But transitions between these states will never occur without extreme external forcing or the addition of noise. Below Gaussian white noise has been simulated to observe transitions between states, shown as an ensemble time series of temperature for each of the 12 solar constant values given above run 30 times with different noise values.
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_500.png" width="400">
@@ -104,7 +104,7 @@ In this model, two stable states are observed for many of the solar constant val
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/timeseries_2500.png" width="400">
 </p>
 
-Noise allows transitions in 5 of the time series shown above, corresponding to their double-well potentials. Note that the amplitude of noise controls the amount of fluctuation a given trajectory can have, and fewer fluctuations and therefore, transitions, will be observed with lower amplitude values. The above transitions have been achieved with an amplitude value of 3. Below is a brief outline of transitions observed at different values of noise amplitude.
+Noise allows transitions in 5 of the time series shown above, corresponding to their double-well potentials. Note that the amplitude of noise controls the amount of fluctuation a given trajectory can have, and fewer fluctuations and therefore, transitions, will be observed with lower amplitude values. The above transitions have been achieved with an amplitude value of 3. Below is a brief outline of transitions observed at different values of noise amplitude. Note that the maximum number of transitions which can be achieved is 30.
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/noise_transitions.png" width="800">
