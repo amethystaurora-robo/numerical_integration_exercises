@@ -5,7 +5,6 @@ This project is looking at the Energy Budget of the Earth. The diagram below sho
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/energy_budget_earth.png">
 </p>
 
-## Part 1: Albedo
 To represent the simplified energy budget, a linear energy balance equation is used.
 
 <p>
@@ -15,6 +14,9 @@ To represent the simplified energy budget, a linear energy balance equation is u
 where C is the heat capacity, T is temperature, t is time, S is incoming solar short-wave radiation, α is albedo, and B and A are outgoing longwave radiation. In this model, the rate of change of mean temperature of the Earth is determined by the difference between absorbed solar radiation (after reflection by albedo) and emitted terrestrial radiation. In equilibrium, the incoming and outgoing radiation will be in balance, causing no change in temperature.
 
 The Budyko-Sellers model adds one complication, in that it says albedo is a function of temperature.
+
+
+## Part 1: Albedo
 
 <p>
   <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/albedo_temp_function.png" width="500">
