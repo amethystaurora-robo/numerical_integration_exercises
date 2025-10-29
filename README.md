@@ -40,10 +40,6 @@ In the Budyko-Sellers model, a solar constant is used. In today's Earth, the sol
 
 Equilibria represent the states where incoming and outgoing radiation are balanced, so the temperature no longer changes (where the trajectory in the graph below crosses zero). These points are important because they determine the long-term climate states of the system.
 
-<p>
-  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/temperature_over_time.png">
-</p>
-
 Stable equilibria, where the trajectory crosses zero and has a negative slope, are those toward which the system naturally evolves. If we imagine that a ball is on this trajectory, it will naturally settle in the troughs where the slope is negative. If the temperature is perturbed slightly (or the ball is kicked a bit), it will return to equilibrium. Unstable equilibria, where the slope is positve in the graph below, act like tipping points: a small perturbation can drive the system toward a different stable state.
 
 <p>
@@ -62,8 +58,11 @@ One can also show the bifurcation diagram of the solar constant vs. temperature.
 
 Keeping the same three values of solar constant (500, 1412, and 2000 W m⁻²), the graph below is a deterministic time series of temperature which has been run for 200 years. 
 
+<p>
+  <img src="https://github.com/amethystaurora-robo/numerical_integration_exercises/blob/main/images/temperature_over_time.png">
+</p>
 
-At a solar constant of 2000 W m⁻², a slight bend appears in the time series. Because at 2000, a bifurcation has occurred (equilibria have disappeared), this may be an example of a long transient where an equilibrium point used to be (also called a ghost attractor).
+At a solar constant of 2000 W m⁻², a slight bend appears in the time series. Because at 2000, a bifurcation has occurred (equilibria have disappeared), this is probably a long transient where an equilibrium point used to be (also called a ghost attractor).
 
 ## Part 4: The Potential Function
 
